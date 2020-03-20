@@ -1489,12 +1489,6 @@ bool CacheManager::SetMetaInfo(const std::string& ccpu_version,
   return true;
 }
 
-bool CacheManager::IsMetaInfoPresent() const {
-  CACHE_MANAGER_CHECK(false);
-  bool result = true;
-  return result;
-}
-
 bool CacheManager::SetSystemLanguage(const std::string& language) {
   CACHE_MANAGER_CHECK(false);
   Backup();
